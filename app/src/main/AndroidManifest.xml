@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Git"
         tools:targetApi="31">
         <activity
+            android:name=".ProceedActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
